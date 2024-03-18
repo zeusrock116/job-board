@@ -49,7 +49,7 @@ npm run build   // to build production react app
 
 ## Authors
 
-* **Miguel Rico**
+* **Zeus Rock**
 
 ## License
 
