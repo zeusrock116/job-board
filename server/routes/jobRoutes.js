@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+
+const jobController = require('../controllers').jobsController;
+
+// router.post('/create', jobController.create);
+router.get('/:jobId', jobController.getById);
+router.get('/', jobController.list);
+
+module.exports = router;
